@@ -1,0 +1,145 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+.navbar{
+	height: 20%;
+}
+.banner{
+	background-image: url("pexels-theglory-302588.jpg");
+	background-size: cover;
+	position: relative;
+	width: 100%;
+	height: 1000px;
+}
+.banner p{
+	color: darkorange;
+	position: absolute;
+	bottom: 20px;
+	left: 10%;
+	padding: 10px;
+	font-size: 40px;
+	font-family: 'Open Sans', sans-serif;
+}
+.banner span{
+	font-family: 'Qwitcher Grypen', cursive;
+	font-size: 200%;
+}
+
+
+.body1{
+	background-color: aliceblue;
+}
+.body1 h1{
+	text-align: center;
+	padding: 60px 10px;
+	font-family: 'Open Sans', sans-serif;
+	color: #11306C;
+}
+.body1 span{
+	font-family: 'Qwitcher Grypen', cursive;
+	font-size: 200%;	
+}
+.col-md-6 h3{
+	color: darkorange;
+	padding-bottom: 10px;
+}
+.col-md-6 p{
+	padding: 5px 0;
+	padding-bottom: 20px;
+}
+
+
+.body2{
+	background-color:whitesmoke;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.body2 h1{
+	text-align: center;
+	padding: 30px 100px;
+	font-family: 'Open Sans', sans-serif;
+	color: #11306C;
+}
+.col-4 img{
+	border: 8px solid #11306C;
+}
+.body2-1 h2{
+	padding-top: 40px;
+	padding-bottom: 50px ;
+	font-family: 'Qwitcher Grypen', cursive;
+	font-size: 50px;
+	color: #11306C;
+}
+
+
+
+
+.body3{
+	background-color:aliceblue;
+	font-family: 'Open Sans', sans-serif;
+}
+.body3 h1{
+	padding: 30px 100px;
+	font-family: 'Open Sans', sans-serif;
+	color: #11306C;
+}
+.body3-1-1{
+	padding-top: 20px;
+	display: flex;
+	justify-content: center;
+	gap: 5px;
+}
+.body3-1-1 p{
+	border: 2px solid #11306C;
+	padding: 10px 200px 10px 10px;
+}
+
+
+.body3-3{
+	display: flex;
+	justify-content: space-between;
+	padding: 30px 20px;
+	align-content: center;
+}
+.body3-3 li{
+	list-style-type: none;
+	font-size: 17px;
+	font-family: 'Open Sans', sans-serif;
+	color:#11306C;
+	padding: 5px;
+	text-align: center;
+}
+.body3-3-1{
+	text-align: center;
+	padding-right: 250px;
+	padding-left: 250px;
+	border-right: 2px solid #11306C;
+	border-left: 2px solid #11306C;
+}
+.body3-3-1 ion-icon{
+	font-size: 30px;
+	color:#11306C;
+}
+.body3-3-1 p{
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+	color:#11306C;
+	text-align: center;
+	padding: 20px;
+}
+@media screen and (max-width:576px){
+	.demoflex{flex-direction: column-reverse;
+	}
+	.demoflex h1{
+		color: blue;
+		font-size: 30px;
+		
+	}
+}
+
